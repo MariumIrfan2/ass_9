@@ -1,32 +1,38 @@
-// changing case pdf
+function firstName() {
+    var required = document.getElementById("name").value;
+    if (required === "") {
+        alert("First Name Required");
+    }
 
-// task 1
-// var input = prompt("enter your name");
-// var input = input.toUpperCase();
-// document.write(input); 
 
-// task 2
-// var input = prompt("enter your name");
-// var fChar = input.slice(0, 1);
-// var fChar = fChar.toUpperCase();
+}
 
-// var otherChar = input.slice(2);
-// var otherChar = otherChar.toLowerCase();
-// var output = fChar + otherChar;
+function lastName() {
+    var required = document.getElementById("lastName").value;
+    if (required === "") {
+        alert("Last Name Required");
+    }
 
-// document.write(output);
 
-// Task 3
-// var mobile = prompt("enter your Favourite Mobile phone Model");
-// var x = mobile.length;
-// document.write(x);
+}
 
-// task 4
-var input = prompt('enter your name');
-var lastChar = input.pop();
-document.write(lastChar);
+function contact() {
+    var required = document.getElementById("contact").value;
+    if (required === "") {
+        alert("Contact Number Required");
+    }
 
-// Finding Segments
-// task 5
+
+}
+
+function email() {
+    var required = document.getElementById("email").value;
+    if (required === "" || required != " @ " ) {
+        alert("Email Required");
+    }
+
+
+}
+
 
 
